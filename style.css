@@ -1,0 +1,85 @@
+/* Add a max-width to the body for better readability on larger screens */
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #f4f4f4;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Improve navigation bar */
+nav {
+    background: #333;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #50b7f5;
+}
+
+/* Styling hero section with better spacing */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: #e9ecef; /* A light grey background if no image is available */
+}
+
+/* Enhancing the About section */
+.about {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    line-height: 1.8;
+}
+
+/* Media Appearances adjustments */
+.media img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Prevents inline display issues */
+    margin: 20px auto;
+}
+
+.media p {
+    text-align: center;
+    margin: 10px 0;
+}
+
+/* Contact section with clearer call-to-action */
+.contact {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact a {
+    color: #50b7f5;
+    padding: 5px 10px;
+    border: 1px solid #50b7f5;
+    display: inline-block;
+    margin-top: 10px;
+    transition: all 0.3s ease;
+}
+
+.contact a:hover {
+    background-color: #50b7f5;
+    color: #fff;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: #ddd;
+    padding: 10px;
+    text-align: center;
+}
